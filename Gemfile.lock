@@ -144,6 +144,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.1.0)
   byebug
+  devise
   devise_token_auth
   omniauth
   puma (~> 3.11)
