@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2019_07_20_101209) do
     t.string "reason"
     t.boolean "treated"
     t.boolean "accepted"
-    t.integer "userId"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

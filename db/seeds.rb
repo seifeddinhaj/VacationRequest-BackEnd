@@ -5,6 +5,43 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-User.create(email: 'seif@yahoo.com', nickname: 'eddin', name: 'seif', password: "seifseif")
-User.create(email: 'sahnoun@yahoo.com', nickname: 'sahnoun', name: 'sahnoun', password: "seifseif")
-User.create(email: 'admin@yahoo.com', nickname: 'admin', name: 'admin', password: "seifseif")
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:1)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:2)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:2)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:1)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:1)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:2)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:1)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:2)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:1)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:1)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:2)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:1)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:1)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:2)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:1)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:1)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:2)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:1)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:1)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:2)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:1)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:1)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:2)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:1)
+Request.create(startDate:'11-10-2015',endDate:'18-10-2015',reason:'sick',treated:false,user_id:2)
+User.create(email: 'seif@yahoo.com', 
+             password: 'seifseif', 
+             password_confirmation: 'seifseif',
+             name:'seif',
+             nickname:'eddin')
+User.create(email: 'admin@yahoo.com', 
+             password: 'seifseif', 
+             password_confirmation: 'seifseif',
+             name:'admin',
+             nickname:'admin')
+User.create(email: 'sahnoun@yahoo.com', 
+             password: 'seifseif', 
+             password_confirmation: 'seifseif',
+             name:'sahnoun',
+             nickname:'sa7')             

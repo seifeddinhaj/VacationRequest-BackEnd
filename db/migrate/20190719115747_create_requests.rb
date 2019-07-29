@@ -6,7 +6,7 @@ class CreateRequests < ActiveRecord::Migration[5.2]
       t.string :reason
       t.boolean :treated
       t.boolean :accepted
-      t.integer :userId
+      t.integer :user_id
 
       t.timestamps
     end
